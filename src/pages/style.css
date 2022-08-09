@@ -1,0 +1,59 @@
+.my-masonry-grid {
+    display: flex;
+    margin-left: -20px; /* gutter size offset */
+}
+.my-masonry-grid_column {
+    border-left: 20px solid transparent;
+    background-clip: padding-box;
+}
+  
+/* Style your items */
+.my-masonry-grid_column > div  { /* change div to reference your elements you put in <Masonry> */
+    background: #ddd;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.my-masonry-grid_column > div > a { /* change div to reference your elements you put in <Masonry> */ 
+    text-decoration: none;
+}
+.my-masonry-grid_column > div :hover { /* change div to reference your elements you put in <Masonry> */
+    background: #eee;
+    color: #000;
+    text-decoration: underline;
+}
+
+
+.character{
+    width: 100%;
+   
+}
+.char_name{
+    padding: 10px 0;
+    font-size: 16px;
+}
+.btn-load{
+    padding: 20px 0 40px 0; 
+    text-align: center;
+   
+}
+/* ------------------ */
+.detail-img{
+    width: 25%;
+}
+.quotes-item{
+    padding: 10px;
+}
+.item{
+    padding: 10px 0;
+}
+.quotes_info{
+    padding: 30px;
+    text-align: center;
+}
+.item a{
+    color: #000000;
+    text-decoration: none
+}
+.item a:hover{
+    text-decoration: underline
+}
